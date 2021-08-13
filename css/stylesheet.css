@@ -1,3 +1,8 @@
+/* INCOMPLETE */
+
+
+
+
 :root {
     --logo-color: #3bc3b5;
     --background: linear-gradient(
@@ -209,7 +214,7 @@
     width: calc(100% / 3);
     float: left;
     border-bottom: 5px solid #3bc3b5;
-    border: 3px solid #cccbcb;
+    /* border: 3px solid #cccbcb; */
 
 }
 
