@@ -1,12 +1,12 @@
 :root {
     --logo-color: #3bc3b5;
     --background: linear-gradient(
-        #3fafa4,
-        #58e7d9
+        #58e7d9,
+        #3fafa4
     );
     --white-text: #ffffff;
     --grey-text: #7a7a7a;
-
+    --logo-font: 'Style Script', cursive;
 }
 
 /* GENERIC */
@@ -46,7 +46,7 @@
 }
 
 .header-top {
-    margin: 0 auto;
+    margin-bottom: -50px;
     padding: 0 150px;
     height: 75px;
     border: 1px dotted black;
@@ -56,8 +56,11 @@
     margin: 0;
     padding: 0;
     width: 25%;
+    font-family: var(--logo-font);
+    color: #3bc3b5;
+    font-size: 64px;
     float: left;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .search-bar {
@@ -65,7 +68,7 @@
     padding: 0;
     width: 50%;
     float: left;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .cart {
@@ -73,13 +76,22 @@
     padding: 0;
     width: 25%;
     float: left;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.cart-icon-div {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
 .cart-icon {
     margin: 0;
     padding: 0;
-    float: left;
+    width: 50px;
+    height: 50px;
 }
 
 .cart-balance {
@@ -187,7 +199,7 @@
 .featured-product-img {
     margin: 10px;
     padding: 10px;
-    width: 150px;
+    width: 200px;
     height: 150px;
 }
 
@@ -197,13 +209,13 @@
     width: calc(100% / 3);
     float: left;
     border-bottom: 5px solid #3bc3b5;
-    justify-content: space-evenly;
+    border: 3px solid #cccbcb;
 
 }
 
 .branded-shoes-price, .branded-tees-price, .branded-polos-price, .branded-wallets-price, .branded-handbags-price, .branded-pants-price {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 20px;
     float: left;
 }
 
@@ -222,7 +234,7 @@
 .products {
     margin: 20px 20px;
     padding: 0 150px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .featured-sale-list, .womens-store-list, .mens-store-list, .quicklinks-list {
